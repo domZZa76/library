@@ -1,0 +1,155 @@
+/* * {
+  border: 1px solid blue;
+} */
+
+* {
+  color: #A64D79;
+ 
+}
+
+body {
+  background-color: #1A1A1D;
+  position: relative;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-left: 20px;
+}
+
+.library {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+  padding: 20px 0px;
+  gap: 30px;
+  margin: 0px 10px;
+}
+
+.book-card {
+  width: 250px;
+  height: 350px;
+  border: 1px solid #6A1E55;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.book-title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.container-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.add-button {
+  background-color: #6A1E55;
+  color: white;
+  font-size: 4em;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.form-button {
+  width: 120px;
+  height: 40px;
+  background-color: #3B1C32;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+dialog {
+  height: 550px;
+  width: 400px;
+  background-color: #A64D79;
+  padding: 0px;
+  border-radius: 30px;
+}
+
+form {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+label {
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.modal-top {
+  height: 100px;
+  background-color: #3B1C32;
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  line-height: 100px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-button {
+  width: 90px;
+  height: 30px;
+  background-color: red;
+  color: black;
+  border-radius: 10px;
+  border: none;
+}
+
+.read-status-button {
+  width: 90px;
+  height: 30px;
+  background-color: #A64D79;
+  color: #1A1A1D;
+  border: none;
+  border-radius: 10px;
+}
+
+#my-checkbox {
+  accent-color: #1A1A1D;
+  width: 25px;
+  height: 25px;
+}
+
+.checkbox-label {
+  font-size: 1.3em;
+}
+
+.checkbox-div {
+flex-direction: row;
+gap: 10px;
+}
